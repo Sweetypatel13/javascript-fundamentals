@@ -133,3 +133,16 @@ function incrementArray(data11) {
 
 let a11 = [4, 7];
 console.log(incrementArray(a11));
+
+//check 0;
+function hasZero(data12) {
+    for (let i = 0; i < data12.length; i++) {
+        if (data12[i] === 0) {
+            return true;
+        }
+    }
+    return false;
+}
+
+let a12 = [3, 0, 5];
+console.log(hasZero(a12));
