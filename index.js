@@ -97,3 +97,13 @@ function makeNegative(data8) {
 
 let a8 = [2, -4, 5];
 console.log(makeNegative(a8));
+
+//index+value:
+function printIndexValue(data9) {
+    for (let i = 0; i < data9.length; i++) {
+        console.log("Index " + i + " : " + data9[i]);
+    }
+}
+
+let a9 = [10, 20];
+printIndexValue(a9);
