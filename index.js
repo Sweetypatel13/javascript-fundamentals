@@ -121,3 +121,15 @@ function sumEven(data10) {
 
 let a10 = [1, 2, 4, 5];
 console.log(sumEven(a10));
+
+//increment values
+function incrementArray(data11) {
+    let result = [];
+    for (let i = 0; i < data11.length; i++) {
+        result.push(data11[i] + 1);
+    }
+    return result;
+}
+
+let a11 = [4, 7];
+console.log(incrementArray(a11));
