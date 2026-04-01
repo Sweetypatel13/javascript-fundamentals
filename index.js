@@ -107,3 +107,17 @@ function printIndexValue(data9) {
 
 let a9 = [10, 20];
 printIndexValue(a9);
+
+//sum of even:
+function sumEven(data10) {
+    let sum = 0;
+    for (let i = 0; i < data10.length; i++) {
+        if (data10[i] % 2 === 0) {
+            sum += data10[i];
+        }
+    }
+    return sum;
+}
+
+let a10 = [1, 2, 4, 5];
+console.log(sumEven(a10));
