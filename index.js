@@ -23,3 +23,13 @@ function countOdd(arr1) {
   return count;
 }
 console.log('Count Odd:', countOdd(arr1));
+
+//print array in reverse:
+let arr2 = [1, 2, 3, 4, 5, 6];
+function printReverse(arr2){
+    console.log("Reverse Array:");
+    for (let i=arr2.length-1;i>=0;i--){
+        console.log(arr2[i]);
+    }
+}
+printReverse(arr2);
