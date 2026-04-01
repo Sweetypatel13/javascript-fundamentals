@@ -59,3 +59,15 @@ function findMin(data5){
 }
 let a5=[8,3,6,1];
 console.log(findMin(a5));
+
+//print positive numbers:
+function printPositive(data6){
+    for(let i = 0; i < data6.length; i++){
+        if(data6[i] > 0){
+            console.log(data6[i]);
+        }
+    }
+}
+
+let a6 = [-2, 5, -1, 7];
+printPositive(a6);
