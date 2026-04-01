@@ -85,3 +85,15 @@ function countGreater(data7) {
 
 let a7 = [5, 12, 20, 8];
 console.log(countGreater(a7));
+
+//make negative:
+function makeNegative(data8) {
+    let result = [];
+    for (let i = 0; i < data8.length; i++) {
+        result.push(-Math.abs(data8[i]));
+    }
+    return result;
+}
+
+let a8 = [2, -4, 5];
+console.log(makeNegative(a8));
