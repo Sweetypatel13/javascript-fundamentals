@@ -71,3 +71,17 @@ function printPositive(data6){
 
 let a6 = [-2, 5, -1, 7];
 printPositive(a6);
+
+//count > 10:
+function countGreater(data7) {
+    let count = 0;
+    for (let i = 0; i < data7.length; i++) {
+        if (data7[i] > 10) {
+            count++;
+        }
+    }
+    return count;
+}
+
+let a7 = [5, 12, 20, 8];
+console.log(countGreater(a7));
