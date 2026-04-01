@@ -1,3 +1,12 @@
-// run `node index.js` in the terminal
 
-console.log(`Hello Node.js v${process.versions.node}!`);
+// Print odd numbers:
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+function printOdd(arr) {
+  console.log('odd numbers:');
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 !== 0) {
+      console.log(arr[i]);
+    }
+  }
+}
+printOdd(arr);
