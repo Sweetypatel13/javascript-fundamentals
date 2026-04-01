@@ -33,3 +33,15 @@ function printReverse(arr2){
     }
 }
 printReverse(arr2);
+
+//multiply each element:
+
+function multiplyByFive(data4){
+    let result=[];
+    for (let i=0;i<data4.length;i++){
+        result.push(data4[i]*5);
+    }
+    return result;
+}
+let a4=[2,4];
+console.log("Multiply By 5:",multiplyByFive(a4));
