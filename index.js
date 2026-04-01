@@ -45,3 +45,17 @@ function multiplyByFive(data4){
 }
 let a4=[2,4];
 console.log("Multiply By 5:",multiplyByFive(a4));
+
+//find minimum
+function findMin(data5){
+    let min = data5[0];
+    for(let i=1;i<data5.length;i++){
+        if(data5[i]<min){
+            min=data5[i];
+
+        }
+    }
+    return min;
+}
+let a5=[8,3,6,1];
+console.log(findMin(a5));
